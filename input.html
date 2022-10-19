@@ -1,0 +1,29 @@
+<!-- 홍 길동
+홍길 동
+홍      길동
+홍               길            동
+[가-힣]{1}\s*[가-힣]{1}\s*[가-힣]{1} -->
+
+
+<body>
+  <form action="/action">
+    <p>{{ board <br> content }}</p>
+
+    <textarea name="message" rows="10" cols="30">{{ board \n content }}</textarea>
+    <br>
+    <input type="file" multiple>
+    <br>
+    <input type="text" placeholder="ex) 123-21-123">
+    <br>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"
+           pattern="[가-힣]{2}">
+    <br>
+    <label for="pin">PIN:</label><br>
+    <input type="text" id="pin" name="pin" maxlength="4">
+    <br><br>
+    <button type="button" onclick="alert(1)">등록</button>
+    <button type="button" onclick="document.write('Hello!!!!')">등록</button>
+    <button type="button" onclick="open('http://naver.com', 'a', 'width=200 height=200')">등록</button>
+  </form>
+</body>

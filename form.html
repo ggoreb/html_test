@@ -1,0 +1,31 @@
+<body>
+  <form method="get" enctype="multipart/form-data">
+    <input disabled value="{{ value }}" 
+         type="text" name="user_id">
+    <input type="button" value="버튼222">
+    <br>
+    근무 가능 지역? (복수 선택 가능)<br>
+    <input type="checkbox" name="area" 
+            value="seoul"> 서울
+    <input type="checkbox" name="area" value="busan"> 부산
+    <input type="checkbox" name="area" value="jeju"> 제주
+    <br>
+    <hr>
+
+    하드웨어의 종류가 아닌것은?<br>
+    <input type="radio" name="exam-01" value="1"> 1. CPU
+    <input type="radio" name="exam-02" value="2"> 2. HDD
+    <input type="radio" name="exam-03" value="3"> 3. SSD
+    <input type="radio" name="exam-04" value="4"> 4. Cup
+
+    <br>
+    <select name="b" id="">
+      <option value="">서울</option>
+      <option value="">세종</option>
+    </select>
+    <textarea name="c" id="" cols="30" rows="10"></textarea>
+    
+    <button>실행</button>
+    <input type="submit">
+  </form>
+</body>

@@ -1,0 +1,21 @@
+<body>
+  <style>
+    table, th, td {
+      border: 1px solid red;
+      border-collapse: collapse;
+    }
+  </style>
+  <table>
+    <tr>
+      <td rowspan="2">번호</td>
+      <td colspan="2">제목</td>
+    </tr>
+    <tr>
+      <td>{{ row.title }}</td>
+      <td>{{ row.date }}</td>
+    </tr>
+    <tr>
+      <td colspan="3">계</td>
+    </tr>
+  </table>
+</body>
